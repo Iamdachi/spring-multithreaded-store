@@ -41,3 +41,26 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment/config
+.env
+*.env.*
+
+# Maven
+.mvn/timing.properties
+
+# Spring Boot specific
+*.war
+*.zip
+
+# Test reports
+test-output/
+surefire-reports/
+
+# Logs
+*.log
