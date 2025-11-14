@@ -21,7 +21,7 @@ public class Warehouse {
      */
     public Warehouse(List<Product> products) {
         if (products != null) {
-            products.forEach(product -> stock.put(product, 10));
+            products.forEach(product -> stock.put(product, 100));
         }
     }
 
